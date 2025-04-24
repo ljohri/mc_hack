@@ -1,0 +1,404 @@
+[
+    {
+        "machine_name": "SlurryMixer",
+        "steps": [
+            {
+                "step_name": "Filling",
+                "fatal_failure": true,
+                "mean": 0.0,
+                "variance": 3.49,
+                "process_time_min": 3,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Notching",
+                "fatal_failure": true,
+                "mean": 0.0,
+                "variance": 4.45,
+                "process_time_min": 7,
+                "distribution": "gaussian"
+            }
+        ]
+    },
+    {
+        "machine_name": "CoatingMachine",
+        "steps": [
+            {
+                "step_name": "TabWelding",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 2.96,
+                "process_time_min": 3,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Drying",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 2.66,
+                "process_time_min": 2,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Filling",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 3.47,
+                "process_time_min": 2,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Slitting",
+                "fatal_failure": true,
+                "mean": 0.0,
+                "variance": 4.07,
+                "process_time_min": 3,
+                "distribution": "gaussian"
+            }
+        ]
+    },
+    {
+        "machine_name": "DryingOven",
+        "steps": [
+            {
+                "step_name": "Winding",
+                "fatal_failure": true,
+                "mean": 0.0,
+                "variance": 2.7,
+                "process_time_min": 3,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Notching",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 3.71,
+                "process_time_min": 6,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Sealing",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 3.22,
+                "process_time_min": 6,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Slitting",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 4.14,
+                "process_time_min": 5,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Mixing",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 3.01,
+                "process_time_min": 4,
+                "distribution": "gaussian"
+            }
+        ]
+    },
+    {
+        "machine_name": "CalenderingRoller",
+        "steps": [
+            {
+                "step_name": "TabWelding",
+                "fatal_failure": true,
+                "mean": 0.0,
+                "variance": 2.91,
+                "process_time_min": 2,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Winding",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 4.2,
+                "process_time_min": 4,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Calendering",
+                "fatal_failure": true,
+                "mean": 0.0,
+                "variance": 3.07,
+                "process_time_min": 7,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Testing",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 2.28,
+                "process_time_min": 5,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Notching",
+                "fatal_failure": true,
+                "mean": 0.0,
+                "variance": 2.55,
+                "process_time_min": 3,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Mixing",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 2.46,
+                "process_time_min": 2,
+                "distribution": "gaussian"
+            }
+        ]
+    },
+    {
+        "machine_name": "SlittingMachine",
+        "steps": [
+            {
+                "step_name": "Aging",
+                "fatal_failure": true,
+                "mean": 0.0,
+                "variance": 2.25,
+                "process_time_min": 6,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Notching",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 3.08,
+                "process_time_min": 7,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Coating",
+                "fatal_failure": true,
+                "mean": 0.0,
+                "variance": 2.4,
+                "process_time_min": 6,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Sealing",
+                "fatal_failure": true,
+                "mean": 0.0,
+                "variance": 3.21,
+                "process_time_min": 5,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Degassing",
+                "fatal_failure": true,
+                "mean": 0.0,
+                "variance": 2.7,
+                "process_time_min": 5,
+                "distribution": "gaussian"
+            }
+        ]
+    },
+    {
+        "machine_name": "WindingStation",
+        "steps": [
+            {
+                "step_name": "Testing",
+                "fatal_failure": true,
+                "mean": 0.0,
+                "variance": 2.23,
+                "process_time_min": 7,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Winding",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 3.48,
+                "process_time_min": 6,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Notching",
+                "fatal_failure": true,
+                "mean": 0.0,
+                "variance": 3.0,
+                "process_time_min": 7,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Formation",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 3.52,
+                "process_time_min": 2,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Calendering",
+                "fatal_failure": true,
+                "mean": 0.0,
+                "variance": 4.76,
+                "process_time_min": 2,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Aging",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 3.13,
+                "process_time_min": 2,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Coating",
+                "fatal_failure": true,
+                "mean": 0.0,
+                "variance": 3.46,
+                "process_time_min": 4,
+                "distribution": "gaussian"
+            }
+        ]
+    },
+    {
+        "machine_name": "CellStacker",
+        "steps": [
+            {
+                "step_name": "Aging",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 4.94,
+                "process_time_min": 5,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Degassing",
+                "fatal_failure": true,
+                "mean": 0.0,
+                "variance": 4.76,
+                "process_time_min": 2,
+                "distribution": "gaussian"
+            }
+        ]
+    },
+    {
+        "machine_name": "ElectrolyteFiller",
+        "steps": [
+            {
+                "step_name": "TabWelding",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 2.03,
+                "process_time_min": 5,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Sealing",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 3.74,
+                "process_time_min": 6,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Winding",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 4.64,
+                "process_time_min": 3,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Calendering",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 4.38,
+                "process_time_min": 3,
+                "distribution": "gaussian"
+            }
+        ]
+    },
+    {
+        "machine_name": "SealingUnit",
+        "steps": [
+            {
+                "step_name": "Coating",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 3.17,
+                "process_time_min": 5,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Testing",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 2.86,
+                "process_time_min": 5,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Formation",
+                "fatal_failure": true,
+                "mean": 0.0,
+                "variance": 4.46,
+                "process_time_min": 6,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Notching",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 4.33,
+                "process_time_min": 2,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Filling",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 4.25,
+                "process_time_min": 5,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Degassing",
+                "fatal_failure": true,
+                "mean": 0.0,
+                "variance": 2.16,
+                "process_time_min": 3,
+                "distribution": "gaussian"
+            }
+        ]
+    },
+    {
+        "machine_name": "FormationChamber",
+        "steps": [
+            {
+                "step_name": "Notching",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 4.55,
+                "process_time_min": 4,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Slitting",
+                "fatal_failure": true,
+                "mean": 0.0,
+                "variance": 2.26,
+                "process_time_min": 7,
+                "distribution": "gaussian"
+            },
+            {
+                "step_name": "Filling",
+                "fatal_failure": false,
+                "mean": 0.0,
+                "variance": 4.94,
+                "process_time_min": 6,
+                "distribution": "gaussian"
+            }
+        ]
+    }
+]
